@@ -682,7 +682,7 @@ preloader:
   load_style: heo # default|gear|ironheart|scarecrow|triangles|wizard|image|spincat|heo(新增)
   load_image: # url
 
-# aside (側邊欄)
+# aside (侧边栏)
 # --------------------------------------
 
 aside:
@@ -734,7 +734,7 @@ aside:
     last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
   card_weibo:
-    enable: false
+    enable: true
   card_friend_link: #友链通讯录
     enable: true
     sort_order: # Don't modify the setting unless you know
