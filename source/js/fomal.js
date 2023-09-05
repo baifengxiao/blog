@@ -3174,8 +3174,8 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
+    --default-bg: url(https://blog.love.sc.cn/importance/pc%E7%AB%AF%E7%99%BD%E5%A4%A9.jpg);
+    --darkmode-bg:url(https://blog.love.sc.cn/importance/PC%E7%AB%AF%E9%BB%91%E5%A4%9C.JPG);
     --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
     --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
   }`;

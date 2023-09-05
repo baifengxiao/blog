@@ -671,7 +671,7 @@ subtitle:
   source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - "Welcome to YupengtaoのBlog!"
+    - "Welcome to My BestBlog!"
     - "Hope you have a nice day!"
 
 # Loading Animation (加載動畫)
