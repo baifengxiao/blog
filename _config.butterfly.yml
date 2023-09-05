@@ -447,8 +447,8 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2023
-  custom_text:
+    since: 2022-2023
+  custom_text: <p><a href="https://beian.miit.gov.cn/#/Integrated/index"><img class="icp-icon" src="https://blog.love.sc.cn/importance/%E5%BE%BD%E6%A0%87.png"><span>备案号：蜀ICP备2023013130号-1</span></a></p>
   copyright: false # Copyright of theme and framework
 
 # Analysis

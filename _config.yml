@@ -210,7 +210,7 @@ live2d:
 # 页脚徽标：[Add Github Badge](https://akilar.top/posts/e87ad7f8/)
 footer_beautify:
   enable:
-    timer: false # 计时器开关
+    timer: true # 计时器开关
     bdage: true # 徽标开关
   priority: 5 #过滤器优先权
   enable_page: all # 应用页面
@@ -223,11 +223,11 @@ footer_beautify:
     index: 0
   # 计时器部分配置项（看你喜欢哪个，最好下载下来放到自己的项目中不然会增加我网站的负载）
   # 这是我的
-#  runtime_js: https://www.fomal.cc/static/js/runtime.js
+#  runtime_js: /js/runtime.js
 #  runtime_css: https://www.fomal.cc/static/css/runtime.min.css
   # 这是店长的
-  runtime_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.js
-  runtime_css: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css
+#  runtime_js: /js/npm.elemecdn.com_hexo-butterfly-footer-beautify@1.0.0_lib_runtime.js
+#  runtime_css: /css/npm.elemecdn.com_hexo-butterfly-footer-beautify@1.0.0_lib_runtime.css
   # 徽标部分配置项
   swiperpara: 0 #若非0，则开启轮播功能，每行徽标个数
   bdageitem:
