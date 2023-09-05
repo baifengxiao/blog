@@ -315,8 +315,8 @@ gitcalendar:
   #   name: content
   #   index: 0
   # simplemode: true
-  user:  #git用户名
-  apiurl: ''
+  user: baifengxiao
+  apiurl: 'https://github-calendar.love.sc.cn'
   minheight:
     pc: 320px #桌面端最小高度
     mibile: 0px #移动端最小高度
@@ -373,3 +373,4 @@ magnet:
     index: 0
   temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
   plus_style: ""
+
