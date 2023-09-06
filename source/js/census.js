@@ -4,7 +4,7 @@ var end_date = '' + date.getFullYear() + (date.getMonth() > 8 ? (date.getMonth()
 
 var access_token = '121.77a43a0bd3e286e0dd9691a71a52a6c2.YHvxPma5_MCPUZEAaJzjC4mDbf0EYbX3LpWmcKw.Qzw62Q' // accessToken
 var site_id = '19531142' // 网址 id
-var dataUrl = 'https://baidu-tongji-api.vercel.app/api?access_token=' + access_token + '&site_id=' + site_id
+var dataUrl = 'https://baidu-tongji.love.sc.cn/api?access_token=' + access_token + '&site_id=' + site_id
 // var dataUrl = 'https://baidu-tongji.fomal.cc/api?site_id=' + site_id
 var metrics = 'pv_count' // 统计访问次数 PV 填写 'pv_count'，统计访客数 UV 填写 'visitor_count'，二选一
 var metricsName = (metrics === 'pv_count' ? '访问次数' : (metrics === 'visitor_count' ? '访客数' : ''))
