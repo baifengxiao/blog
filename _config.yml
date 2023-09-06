@@ -4,8 +4,8 @@
 
 # Site
 title: BestBlog
-subtitle: 
-description: '分析技术，记录生活 🍭🍭🍭'
+subtitle: 分析技术，记录生活 🍭🍭🍭
+description: ''
 keywords: 'Java,MySQL,算法,代码,博客'
 author: YuPengtao
 language: zh-CN
@@ -377,7 +377,7 @@ magnet:
 # electric_clock (安知鱼电子钟)
 # see https://anzhiy.cn/posts/fc18.html
 electric_clock:
-  enable: true # 开关
+  enable: false # 开关
   priority: 5 #过滤器优先权
   enable_page: / # 应用页面
   exclude:
