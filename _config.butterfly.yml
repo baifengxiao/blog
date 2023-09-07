@@ -9,17 +9,20 @@ menu:
     标签: /tags/ || icon-sekuaibiaoqian || faa-tada
     分类: /categories/ || icon-fenlei || faa-tada
   休闲 || icon-pinweishenghuo || faa-tada || hide:
-    八音盒: /life/music/ ||icon-yinle || faa-tada
-    影院: /life/movies/ ||icon-dianying1 || faa-tada
-    游戏: /life/games/ || icon-youxishoubing || faa-tada
-  八宝箱 || icon-xiangzi || faa-tada || hide:
-    画廊: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
-    动画: /box/animation/ || icon-nvwumao || faa-tada
-    网址导航: /box/nav/ || icon-zhifengche || faa-tada
-  社交 || icon-shejiaoxinxi || faa-tada || hide:
-    朋友圈: /social/fcircle/ || icon-pengyouquan || faa-tada
-    留言板: /comments/ || icon-liuyan || faa-tada
-    友人帐: /social/link/ || icon-lianjie || faa-tada
+    音乐盒: /life/music/ ||icon-yinle || faa-tada
+#    影院: /life/movies/ ||icon-dianying1 || faa-tada
+    游戏(新建文件夹): /life/games/ || icon-youxishoubing || faa-tada
+  回忆录 || icon-xiangzi || faa-tada || hide:
+    相册: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
+    影片: /box/animation/ || icon-nvwumao || faa-tada
+#    网址导航: /box/nav/ || icon-zhifengche || faa-tada
+
+
+#  社交 || icon-shejiaoxinxi || faa-tada || hide:
+#    朋友圈: /social/fcircle/ || icon-pengyouquan || faa-tada
+
+
+#    友人帐: /social/link/ || icon-lianjie || faa-tada
   网站 || icon-wangye || faa-tada || hide:
     网站统计: /site/census/ || icon--tongjibiao || faa-tada
     文章统计: /site/echarts/ || icon-shujutongji1 || faa-tada
@@ -28,6 +31,7 @@ menu:
     唠叨: /personal/bb/ || icon-qunliaotian || faa-tada
     恋爱小屋: /personal/love/ || icon-love-sign || faa-tada
     关于: /personal/about/ || icon-paperplane || faa-tada
+  留言板: /comments/ || icon-liuyan || hide
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -53,7 +57,7 @@ copy:
 social:
   Github: https://github.com/baifengxiao || icon-github || faa-tada
   微信: /assets/微信二维码.jpg || icon-weixin || faa-tada
-  QQ: https://res.abeim.cn/api/qq/?qq=2686630689 || icon-QQ || faa-tada
+#  QQ: https://res.abeim.cn/api/qq/?qq=2686630689 || icon-QQ || faa-tada
   B站: https://space.bilibili.com/3537120402606393 || icon-bilibili || faa-tada
   邮箱: mailto:javaer@111.com || icon-youxiang || faa-tada
 #  力扣: https://leetcode.cn/u/fomalhaut1998 || icon-leetcode || faa-tada
@@ -448,7 +452,7 @@ footer:
   owner:
     enable: true
     since: 2023
-  custom_text: <p><a href="https://beian.miit.gov.cn/#/Integrated/index"><img class="icp-icon" src="https://blog.love.sc.cn/importance/%E5%BE%BD%E6%A0%87.png"><span>备案号：蜀ICP备2023013130号-1</span></a></p>
+  custom_text: I wish you to become your own sun, no need to rely on who's light.<p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p><p><a href="https://beian.miit.gov.cn/#/Integrated/index"><img class="icp-icon" src="https://rainbell.obs.cn-southwest-2.myhuaweicloud.com/importance/%E5%BE%BD%E6%A0%87.png"><span>备案号：蜀ICP备2023013130号-1</span></a></p>
   copyright: false # Copyright of theme and framework
 
 # Analysis
