@@ -8,7 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "dev": "hexo cl && hexo g && hexo s -p 80",
-    "pro": "hexo cl && hexo g"
+    "pro": "hexo cl && hexo g && systemctl restart nginx"
   },
   "hexo": {
     "version": "6.3.0"
