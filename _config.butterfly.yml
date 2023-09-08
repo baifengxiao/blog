@@ -370,7 +370,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: 
+  envId: http://121.37.242.52:8080/
   region:
   visitor: false
   option:
