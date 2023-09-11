@@ -2868,7 +2868,7 @@ if (window.localStorage.getItem("fpson") == undefined || window.localStorage.get
       } else {
         var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`
       }
-      document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;
+      document.getElementById("fps").innerHTML = `${kd}`;
       frame = 0;
       lastTime = now;
     };

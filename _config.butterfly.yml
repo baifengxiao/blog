@@ -910,6 +910,7 @@ inject:
     - <style id="menu_shadow"></style> # 菜单发光样式
 
   bottom:
+    - <script src="https://blog.love.sc.cn/js/f12.js"></script> # 禁用f12
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery
     - <script async src="https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js"></script> # VUE
     - <script async src="https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js"></script> # ElementUI
@@ -1102,11 +1103,11 @@ tag_plugins:
   link:
     placeholder: "/assets/coffee.png" #link_card标签默认的图标图片
   CDN:
-    anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
-    jquery: https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js #issues标签依赖
-    issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
-    carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
-    tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+    anima: https://blog.love.sc.cn/css/npm.elemecdn.com_hexo-butterfly-tag-plugins-plus%40latest_lib_assets_font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: https://blog.love.sc.cn/js/cdn.staticfile.org_jquery_3.6.3_jquery.min.js #jquery标签依赖
+    issues: https://blog.love.sc.cn/js/npm.elemecdn.com_hexo-butterfly-tag-plugins-plus%40latest_lib_assets_issues.js #issues标签依赖
+    carousel: https://blog.love.sc.cn/js/npm.elemecdn.com_hexo-butterfly-tag-plugins-plus%40latest_lib_assets_carousel-touch.js
+    tag_plugins_css: https://blog.love.sc.cn/css/npm.elemecdn.com_hexo-butterfly-tag-plugins-plus%40latest_lib_tag_plugins.css
 
 # 主页卡片样式
 # Docs: https://akilar.top/posts/d6b69c49/
