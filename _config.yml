@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: BestBlog
-subtitle: 分析技术，记录生活 🍭🍭🍭
+title: 雨霖铃
+subtitle:
 description: ''
 keywords: 'Java,MySQL,算法,代码,博客'
 author: YuPengtao
@@ -169,10 +169,10 @@ swiper:
     name: recent-posts
     index: 0
   default_descr: 再怎么看我也不知道怎么描述它的啦！
-  swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
-  swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
-  custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
-  custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
+  swiper_css: https://blog.love.sc.cn/css/npm.elemecdn.com_hexo-butterfly-swiper_lib_swiper.min.css #swiper css依赖
+  swiper_js: https://blog.love.sc.cn/js/npm.elemecdn.com_hexo-butterfly-swiper_lib_swiper.min.js #swiper js依赖
+  custom_css: https://blog.love.sc.cn/css/npm.elemecdn.com_hexo-butterfly-swiper_lib_swiperstyle.css # 适配主题样式补丁
+  custom_js: https://blog.love.sc.cn/js/npm.elemecdn.com_hexo-butterfly-swiper_lib_swiper_init.js # swiper初始化方法
 
 # 本地搜索
 search:
@@ -269,7 +269,7 @@ gitcalendar:
   user: baifengxiao
   apiurl: 'https://github-calendar.love.sc.cn'
   minheight:
-    pc: 320px #桌面端最小高度
+    pc: 280px #桌面端最小高度
     mibile: 0px #移动端最小高度
   color: "['#d9e0df', '#c6e0dc', '#a8dcd4', '#9adcd2', '#89ded1', '#77e0d0', '#5fdecb', '#47dcc6', '#39dcc3', '#1fdabe', '#00dab9']"
   # "['rgb(145, 145, 145, 0.2)', '#c6ecc1', '#a0e2bb', '#1fc7b6', '#70c5d3', '#60a2ce', '#507ac9', '#4356c5', '#423cc4', '#5b3abc', '#7138b6']" # 冷色系温度色调
