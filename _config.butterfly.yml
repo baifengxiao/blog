@@ -910,7 +910,6 @@ inject:
     - <style id="menu_shadow"></style> # 菜单发光样式
 
   bottom:
-    - <script src="https://blog.love.sc.cn/js/f12.js"></script> # 禁用f12
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery
     - <script async src="https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js"></script> # VUE
     - <script async src="https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js"></script> # ElementUI

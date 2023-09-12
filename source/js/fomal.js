@@ -226,7 +226,7 @@ function showWelcome() {
           posdesc = "朝观日出逐白浪，夕看云起收霞光。";
           break;
         case "四川省":
-          posdesc = "康康川妹子。";
+          posdesc = "哟！四川老乡";
           break;
         case "贵州省":
           posdesc = "茅台，学生，再塞200。";
@@ -3004,7 +3004,7 @@ function setSnow() {
     localStorage.setItem("snow", "block");
   } else {
     document.getElementById("snow").style.display = "none";
-    localStorage.setItem("snow", "none");
+    localStorage.setItem("snow", "block");
   }
 }
 
@@ -3386,9 +3386,7 @@ function createWinbox() {
 <h2>二、字体设置</h2>
 {% note warning modern %}非商免字体未经授权只能个人使用。本站为完全非商业、非盈利性质的网站，平时用于个人学习交流，如有侵权请联系站长删除，谢谢！ —— 致版权方{% endnote %}
 <p id="swfs">
-<a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'ZhuZiAWan'!important;color:black" onclick="setFont('ZhuZiAWan')">筑紫A丸标准体2.0</a>
 <a class="swf" id="swf_HYTMR" href="javascript:;" rel="noopener external nofollow" style="font-family:'HYTMR'!important;color:black" onclick="setFont('HYTMR')">汉仪唐美人</a>
-<a class="swf" id="swf_LXGW" href="javascript:;" rel="noopener external nofollow" style="font-family:'LXGW'!important;color:black" onclick="setFont('LXGW')">霞鹜文楷</a>
 <a class="swf" id="swf_TTQHB" href="javascript:;" rel="noopener external nofollow" style="font-family:'TTQHB'!important;color:black" onclick="setFont('TTQHB')">甜甜圈海报</a>
 <a class="swf" id="swf_YSHST" href="javascript:;" rel="noopener external nofollow" style="font-family:'YSHST'!important;color:black" onclick="setFont('YSHST')">优设好身体</a>
 <a class="swf" id="swf_default" href="javascript:;" rel="noopener external nofollow" style="font-family:-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif;!important;color:black" onclick="setFont('default')">系统默认</a>
@@ -3411,35 +3409,13 @@ function createWinbox() {
 <h2>四、背景设置</h2>
 <center><button onclick="resetBg()" style="background:var(--theme-color);display:block;width:35%;padding:15px 0;border-radius:30px;color:white;"><i class="fa-solid fa-arrows-rotate"></i>&nbsp;恢复默认背景</button></center>
 
-<h3>1. 二次元</h3>
-{% folding cyan, 查看二次元背景 %}
-<div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a>
-
-</div>
-{% endfolding %}
 
 
-<h3>2. 风景</h3>
-
-{% folding cyan, 查看风景背景 %}
-<div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a>
 
 
-</div>
-{% endfolding %}
 
-<h3>3. 萌宠</h3>
 
-{% folding cyan, 查看萌宠背景 %}
-<div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a>
-
-</div>
-{% endfolding %}
-
-<h3>4. 渐变色</h3>
+<h3>1. 渐变色</h3>
 {% folding cyan, 查看渐变色背景 %}
 <div class="bgbox">
 <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #544a7d, #ffd452)" onclick="changeBg('linear-gradient(to right, #544a7d, #ffd452)')"></a>
@@ -3454,7 +3430,7 @@ function createWinbox() {
 {% endfolding %}
 
 
-<h3>5. 纯色</h3>
+<h3>2. 纯色</h3>
 {% folding cyan, 查看纯色背景 %}
 <div class="bgbox">
 <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #ecb1b1" onclick="changeBg('#ecb1b1')"></a> 
@@ -3470,31 +3446,13 @@ function createWinbox() {
 
 
 
-<h3>6. 适配手机</h3>
-{% folding cyan, 查看适配手机的背景 %}
-<div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)')"></a>
-
-</div>
-{% endfolding %}
 
 
-<h3>7. 壁纸API</h3>
-{% folding cyan, 查看壁纸API系列背景 %}
-<div class="bgbox">
-<a id="bingDayBox" rel="noopener external nofollow" style="background-image: ${bingDayBg}" class="box apiBox" onclick="changeBg('${bingDayBg}')"></a>
-<a id="bingHistoryBox" rel="noopener external nofollow" style="background-image: ${bingHistoryBg}" class="box apiBox" onclick="changeBg('${bingHistoryBg}')"></a>
-<a id="EEEDogBox" rel="noopener external nofollow" style="background-image: ${EEEDog}" class="box apiBox" onclick="changeBg('${EEEDog}')"></a>
-<a id="seovxBox" rel="noopener external nofollow" style="background-image: ${seovx}" class="box apiBox" onclick="changeBg('${seovx}')"></a>
-<a id="picsumBox" rel="noopener external nofollow" style="background-image: ${picsum}" class="box apiBox" onclick="changeBg('${picsum}')"></a>
-<a id="waiBizhiBox" rel="noopener external nofollow" style="background-image: ${waiBizhi}" class="box apiBox" onclick="changeBg('${waiBizhi}')"></a>
-<a id="btstuBox" rel="noopener external nofollow" style="background-image: ${btstu}" class="box apiBox" onclick="changeBg('${btstu}')"></a>
-<a id="unsplashBox" rel="noopener external nofollow" style="background-image: ${unsplash}" class="box apiBox" onclick="changeBg('${unsplash}')"></a>
-</div>
-{% endfolding %}
 
 
-<h3>8. 自定义背景</h3>
+
+
+<h3>3. 自定义背景</h3>
 {% folding cyan, 设置自定义背景 %}
 <p><center>
 <input type="text" id="pic-link" size="70%" maxlength="1000" placeholder="请输入有效的图片链接，如 https://source.fomal.cc/img/home_bg.webp">
