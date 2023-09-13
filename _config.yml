@@ -6,7 +6,7 @@
 title: 雨霖铃
 subtitle:
 description: ''
-keywords: 'Java,MySQL,算法,代码,博客'
+keywords: '开源博客，零界'
 author: YuPengtao
 language: zh-CN
 timezone: Asia/Shanghai
@@ -124,7 +124,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repository: git@github.com:baifengxiao/blog.git
+    repository: git@github.com:baifengxiao/baifengxiao.github.io.git
     branch: main
   # - type: baidu_url_submitter
   # - type: git
